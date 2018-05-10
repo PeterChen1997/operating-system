@@ -1,0 +1,11 @@
+{
+  "name": "operating",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gcc -Wall hello.c -o hello"
+  },
+  "author": "",
+  "license": "ISC"
+}

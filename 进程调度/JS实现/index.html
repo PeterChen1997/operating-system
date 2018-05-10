@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>进程调度</title>
+  <style>
+    h1,
+    h2,
+    h3,
+    div {
+      margin-bottom: 20px;
+    }
+
+    label {
+      margin-left: 1em;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="is-size-1 has-text-centered">进程调度</h1>
+
+    <div class="options">
+      <h2 class="is-size-2">参数配置</h2>
+      <h3 class="is-size-3">进程调度方法选择</h3>
+      <div class="methods control">
+        <label class="radio">
+          <input type="radio" name="type" checked> 静态优先级调度
+        </label>
+        <label class="radio">
+          <input type="radio" name="type"> 静态优先级调度
+        </label>
+        <label class="radio">
+          <input type="radio" name="type"> 时间片轮转调度
+        </label>
+      </div>
+
+      <h3 class="is-size-3">进程名与所需时间片</h3>
+      <div class="form columns is-centered">
+        <label for="name" class="label has-text-centered">进程名
+          <input type="text" id="name" class="input">
+        </label>
+        <label for="timeSlice" class="label has-text-centered">所需时间片(建议1~5)
+          <input type="text" id="timeSlice" class="input">
+        </label>
+        <hr>
+      </div>
+
+      <div class="control columns is-centered">
+        <a class="button is-info is-rounded">Rounded</a>
+      </div>
+    </div>
+
+
+
+    <h2 class="is-size-2">处理过程</h2>
+    <div class="process">
+      <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
+        <thead>
+          <tr>
+            <th>进程名</th>
+            <th>优先级</th>
+            <th>已获得时间片</th>
+            <th>已用CPU时间</th>
+            <th>所需时间</th>
+            <th>进程状态</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>test1</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>4</td>
+            <td>Running</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,3 @@
+/home/peterchen/桌面/操作系统/进程调度/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/peterchen/桌面/操作系统/进程调度/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/peterchen/桌面/操作系统/进程调度/cmake-build-debug/CMakeFiles/process.dir
