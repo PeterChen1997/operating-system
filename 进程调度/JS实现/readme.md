@@ -7,3 +7,5 @@
 - 时间片轮转调度
 
 使用JS中类的方法抽象PCB的内容存储功能，通过可视化的方法，将不同调度方法下的步骤，使用表格和高亮的方式，将每一步的调度显示出来，加深对操作系统调度算法的理解
+
+demo地址： https://www.peterchen.club/process-scheduling

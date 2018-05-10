@@ -10,6 +10,10 @@ export default class Process {
     this.count = 0
   }
 
+  setPriority(value) {
+    this.priority = value
+  }
+
   toObj() {
     return {
       name: this.name,
