@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 typedef struct node
 {
     char name[20];    /*进程的名字*/
@@ -219,7 +218,7 @@ void Priority()   /*按照优先级调度，每次执行一个时间片*/
         Output();  /*输出每次调度过程中各个节点的状态*/
         while(flag)
         {
-            run->prio -= 0; /*优先级减去三,若设为0则优先级不变*/
+            run->prio -= 3; /*优先级减去三,若设为0则优先级不变*/
             run->cputime++; /*CPU时间片加一*/
             run->needtime--;/*进程执行完成的剩余时间减一*/
             if(run->needtime == 0)/*如果进程执行完毕，将进程状态置为F，将其插入到完成队列*/

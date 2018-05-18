@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/peterchen/桌面/操作系统/页面置换算法/main.cpp
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+IO.H
+-
+PROCESS.H
+-
+
