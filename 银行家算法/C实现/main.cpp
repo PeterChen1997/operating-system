@@ -179,19 +179,19 @@ int main()//主函数
 
     showdata();//显示各种资源
     safe();//用银行家算法判定系统是否安全
-    while(choice)
-    {
-        cout<<"***********************************"<<endl;
-        cout<<"             0:离开        "<<endl;
-        cout<<"             1:资源请求    "<<endl;
-        cout<<"请选择功能号：";
-        cin>>choice;
-        switch(choice)
-        {
-            case 1: request();break;
-            case 0: choice=0;break;
-            default: cout<<"请正确选择功能号(0-1)!"<<endl;break;
-        }
-    }
-    return 1;
+//    while(choice)
+//    {
+//        cout<<"***********************************"<<endl;
+//        cout<<"             0:离开        "<<endl;
+//        cout<<"             1:资源请求    "<<endl;
+//        cout<<"请选择功能号：";
+//        cin>>choice;
+//        switch(choice)
+//        {
+//            case 1: request();break;
+//            case 0: choice=0;break;
+//            default: cout<<"请正确选择功能号(0-1)!"<<endl;break;
+//        }
+//    }
+    return 0;
 }

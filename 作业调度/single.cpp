@@ -284,7 +284,6 @@ void HRN(Job job[],int n)//高相应比优先作业调度
     W+=job[0].cltime;
     t=job[0].endtime;
 
-    // TODO: 加上时间
     while(HighestResponseRadio(job,n,t)!=-1)
     {
         if(HighestResponseRadio(job, n, t) == -2) {

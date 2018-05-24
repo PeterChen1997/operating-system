@@ -55,7 +55,7 @@ int main( )
         a[i+2]=(int)((float)a[i]*(rand()/(RAND_MAX+1.0))); //执行前地址指令m'
         a[i+3]=a[i+2]+1; //顺序执行一条指令
         printf("%6d%6d%6d%6d\n", a[i],a[i+1],a[i+2],a[i+3]);
-        // 0 ~ 319-m
+        // m+1 ~ 319
         s  = (int)((float)((total_instruction-1)-a[i+2])*(rand()/(RAND_MAX+1.0))) + a[i+2];
     }
 
